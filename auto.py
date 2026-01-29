@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # --- Your config ---
-url = "http://10.100.20.1:8090/httpclient.html"
+url = "http://10.100.20.1:8090/httpclient.html" #put hare Url
 username = "UserName" #put UserName hare
 password = "Password" #put Password hare
 
@@ -37,5 +37,6 @@ while True:
 
     # Wait 2 minutes before the next login
     time.sleep(120)
+
 
 
