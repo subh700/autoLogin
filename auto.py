@@ -12,7 +12,7 @@ password = "Password" #put Password hare
 
 while True:
     # Create Chrome driver
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome("chromedriver.exe")
 
     try:
         # Open the login page
@@ -37,4 +37,5 @@ while True:
 
     # Wait 2 minutes before the next login
     time.sleep(120)
+
 
