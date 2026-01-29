@@ -6,8 +6,8 @@ import time
 
 # --- Your config ---
 url = "http://10.100.20.1:8090/httpclient.html"
-username = "phcs250007"
-password = "Sk748834@"
+username = "UserName" #put UserName hare
+password = "Password" #put Password hare
 
 
 while True:
@@ -37,3 +37,4 @@ while True:
 
     # Wait 2 minutes before the next login
     time.sleep(120)
+
